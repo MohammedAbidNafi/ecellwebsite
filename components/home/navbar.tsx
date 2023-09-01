@@ -3,6 +3,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import Core from '../team/core';
+import GB from '../team/gb';
 
 const Navbar = () => {
   return (
@@ -23,6 +25,8 @@ const Navbar = () => {
           
           <div className='text-[70px] font-bold header -mt-8 bg-clip-text text-transparent bg-gradient-to-r from-[#2c6ca4] via-[#eb443b] to-[#eb3c3b] opacity-100'>MJCET</div>
         </div>
+
+        
     </div>
   )
 }

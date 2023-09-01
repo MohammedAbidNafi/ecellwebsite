@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import elnwt from "../../public/assets/ewnlt.png";
 import Link from "next/link";
+import About from "./about";
+
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,7 +32,7 @@ const Header = () => {
               <Link href={""}>Events</Link>
             </li>
             <li className="mx-3 text-xl font-semibold hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#eb3c3b] via-[#525e8e] to-[#2c6ca4] hover:font-bold hover:underline">
-              <Link href={""}>Team</Link>
+              <Link href={"/team"}>Team</Link>
             </li>
             <li className="mx-3 text-xl font-semibold hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#eb3c3b] via-[#525e8e] to-[#2c6ca4] hover:font-bold hover:underline">
               <Link href={""}>Gallery</Link>
@@ -71,7 +73,7 @@ const Header = () => {
                     <Link href={""}>Events</Link>
                   </li>
                   <li className="mx-3 text-xl font-semibold hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#eb3c3b] via-[#525e8e] to-[#2c6ca4] hover:font-bold hover:underline">
-                    <Link href={""}>Team</Link>
+                    <Link href={"/team"}>Team</Link>
                   </li>
                   <li className="mx-3 text-xl font-semibold hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r from-[#eb3c3b] via-[#525e8e] to-[#2c6ca4] hover:font-bold hover:underline">
                     <Link href={""}>Gallery</Link>
